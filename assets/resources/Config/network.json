@@ -1,0 +1,23 @@
+{
+    "keepAliveInterval": 15,
+    "reconnectMaxCount": 5,
+    "sendMessageTimeot": 30,
+    "ignoreMessageMap": {
+        "GameFactory": [
+            "0xb4",
+            "0xb6",
+            "0xbf",
+            "0xb014",
+            "0xc1",
+            "0xc5",
+            "0xb013",
+            "0x1e",
+            "0xc3"
+        ]
+    },
+    "nonInheritGameFactoryServers": [
+        "Lobby",
+        "Dispatch",
+        "Login"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "webServer": {
+        "domain": "127.0.0.1",
+        "port": 8889
+    },
+    "files": {
+        "hotUpdateServer": {
+            "package": {
+                "filePath": "hotupdate/{ASSETS_DIR}/"
+            },
+            "version": {
+                "filePath": "hotupdate/{ASSETS_DIR}/version.manifest"
+            },
+            "project": {
+                "filePath": "hotupdate/{ASSETS_DIR}/project.manifest"
+            }
+        }
+    }
+}
